@@ -96,3 +96,23 @@ body {
 .navbar-nav .nav-link:hover {
     color: #2193b0;
 }
+
+/* Overlay Style */
+.overlay {
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Half-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.overlay p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
