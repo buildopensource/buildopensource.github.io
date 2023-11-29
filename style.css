@@ -99,7 +99,7 @@ body {
 
 /* Blurred Background when Overlay is Active */
 .blur-background {
-    filter: blur(8px); /* Adjust the pixel value for the desired blur effect */
+    filter: blur(15px); /* Adjust the pixel value for the desired blur effect */
 }
 
 /* Overlay Style */
