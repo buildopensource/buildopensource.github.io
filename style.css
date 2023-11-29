@@ -97,22 +97,29 @@ body {
     color: #2193b0;
 }
 
+/* Blurred Background when Overlay is Active */
+.blur-background {
+    filter: blur(8px); /* Adjust the pixel value for the desired blur effect */
+}
+
 /* Overlay Style */
 .overlay {
-    position: fixed; /* Fixed position */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.8); /* Half-transparent black background */
+    background: rgba(0, 0, 0, 0.75); /* Dark background for better readability */
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Ensure it's above other content */
+    z-index: 1000;
 }
 
 .overlay p {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
+    margin: 0;
 }
+
